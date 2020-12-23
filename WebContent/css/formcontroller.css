@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+.hidden {
+	display: none;
+}
+
+.validInput { 
+    /* lysegrønn */
+	background-color: rgb(200, 255, 200);
+}
+
+.invalidInput { 
+    /* lyserød */
+	background-color: rgb(255, 200, 200);
+}
+
+.strongPassword { 
+    /* lysegrønn */
+	background-color: rgb(200, 255, 200);
+}
+
+.mediumPassword { 
+    /* lysegul */
+	background-color: rgb(255, 255, 170);
+}
+
+.weakPassword { 
+    /* lyserød */
+	background-color: rgb(255, 200, 200)
+}

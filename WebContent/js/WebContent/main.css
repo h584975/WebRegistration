@@ -1,0 +1,24 @@
+input, select {
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.hidden {
+    display: none;
+}
+
+#frame {
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    grid-gap: 5em;
+}
+
+div[data-result]>p:first-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+ul[data-yearlist] {
+    padding-top: 0;
+    margin-top: 0;
+}
